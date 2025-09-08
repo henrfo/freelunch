@@ -143,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+freelunch_v1/
 
 # Spyder project settings
 .spyderproject
@@ -205,3 +206,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Financial/ML project specific
+data/
+*.csv
+*.xlsx
+*.xls
+models/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Jupyter Lab workspace
+.jupyter/
+
+# MacOS
+.DS_Store
+*/.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
